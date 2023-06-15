@@ -1,13 +1,14 @@
+#include <stdio.h>
 #include <unistd.h>
 
 /**
  * main - Entry point of every program
  *
- * Return: Always written in 1
+ * Return: Always written 1
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	write(1, "and that piece of art is useful\" - Dora Koper, 2015-10-19\n", 59);
 
 	return (1);
 }
