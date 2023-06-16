@@ -13,7 +13,7 @@ int main(void)
 
 	for (firstDigit = 0; firstDigit <= 7; firstDigit++)
 	{
-		for (secondDgigit = firstDigit + 1; secondDigit <= 9, secondDigit++)
+		for (secondDigit = firstDigit + 1; secondDigit <= 9, secondDigit++)
 		{
 			for (thirdDigit = secondDigit + 1; thirdDigit <= 9; thirdDigit++)
 			{
