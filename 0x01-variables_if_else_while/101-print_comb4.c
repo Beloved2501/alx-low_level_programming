@@ -13,7 +13,7 @@ int main(void)
 
 	for (firstDigit = 0; firstDigit <= 7; firstDigit++)
 	{
-		for (secondDgigit = firstDigit + 1; secondDigit <= 8, secondDigit++)
+		for (secondDgigit = firstDigit + 1; secondDigit <= 9, secondDigit++)
 		{
 			for (thirdDigit = secondDigit + 1; thirdDigit <= 9; thirdDigit++)
 			{
@@ -21,7 +21,7 @@ int main(void)
 				putchar(secondDigit + '0');
 				putchar(thirdDigit + '0');
 
-				if (firstDigit != 7 || secondDigit != 8 || thirdDigit != 9)
+				if (firstDigit != 7 || secondDigit != 9 || thirdDigit != 9)
 				{
 					putchar(',');
 					putchar(' ');
