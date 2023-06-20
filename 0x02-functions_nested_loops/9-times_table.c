@@ -18,15 +18,15 @@ void times_table(void)
 			if (result < 10)
 				_putchar(result + '0');
 		}
-		else if
+		else
 		{
-			_putchar((result / 10) + '48');
-			_putchar((result % 10) + '48');
+			_putchar((result / 10) + '0');
+			_putchar((result % 10) + '0');
 		}
 		if (a != 57)
 		{
-			_putchar('44');
-			_putchar('32');
+			_putchar(',');
+			_putchar(' ');
 		}
 		_putchar('\n');
 	}
