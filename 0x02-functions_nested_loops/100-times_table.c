@@ -17,7 +17,6 @@ void print_times_table(int n)
 		{
 			_putchar(48);
 			for (j = 1; j <= n; j++)
-
 			{
 				k = i * j;
 				_putchar(44);
@@ -40,8 +39,8 @@ void print_times_table(int n)
 					_putchar(((k / 10) % 10) + 48);
 					_putchar((k % 10) + 48);
 				}
-				_putchar('\n');
 			}
+			_putchar('\n');
 		}
 	}
 }
