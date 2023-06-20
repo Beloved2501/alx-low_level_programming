@@ -23,7 +23,8 @@ void times_table(void)
 			_putchar((result / 10) + '0');
 			_putchar((result % 10) + '0');
 		}
-		if (a != 57)
+
+		if (a != 9)
 		{
 			_putchar(',');
 			_putchar(' ');
