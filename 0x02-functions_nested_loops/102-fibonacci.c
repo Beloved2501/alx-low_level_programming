@@ -20,7 +20,7 @@ int main(void)
 		a = b;
 		b = sum;
 
-		if (j == 49)
+		if (j == 50)
 			printf("\n");
 		else
 		printf(",");
