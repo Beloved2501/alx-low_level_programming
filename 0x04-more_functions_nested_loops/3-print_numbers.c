@@ -7,7 +7,7 @@
  */
 void print_numbers(void)
 {
-	char j;
+	int j;
 
 	for (j = 48; j <= 57; j++)
 	{
