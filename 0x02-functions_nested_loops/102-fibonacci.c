@@ -20,11 +20,15 @@ int main(void)
 		a = b;
 		b = sum;
 
-		if (j == 50)
+		if (j == 49)
+		{
 			printf("\n");
+		}
 		else
+		{
 		printf(",");
 		printf(" ");
+		}
 	}
 	return (0);
 }
