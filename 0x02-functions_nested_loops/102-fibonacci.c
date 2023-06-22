@@ -23,7 +23,7 @@ int main(void)
 		if (j == 49)
 			printf("\n");
 		else
-			printf(",");
+		printf(",");
 		printf(" ");
 	}
 	return (0);
