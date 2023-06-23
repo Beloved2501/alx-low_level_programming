@@ -28,9 +28,8 @@ void print_number(int n)
 			j = n / k;
 			_putchar('0' + j);
 			n -= j * k;
-			k / 10;
+			k /= 10;
 		}
 	}
 	_putchar('0' + m);
-	_putchar('\n');
 }
