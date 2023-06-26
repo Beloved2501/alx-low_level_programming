@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * _puts - displays the function of string,
@@ -8,7 +9,7 @@
  */
 void _puts(char *str)
 {
-	char *str;
+	char str;
 	{
 		while (*str != '\0')
 		{
