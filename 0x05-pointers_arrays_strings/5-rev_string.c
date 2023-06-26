@@ -1,9 +1,9 @@
-#include <string.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * rev_string - displays the function that reverse string
- * @s: pointer variable
+ * @s: Pointer variable
  * Return: Return void
  */
 void rev_string(char *s)
@@ -18,7 +18,7 @@ void rev_string(char *s)
 	for (j = 0; j < (size / 2); j++)
 	{
 		char rev = s[j];
-		
+
 		s[j] = s[size - 1 - j];
 		s[size - 1 - j] = rev;
 	}
