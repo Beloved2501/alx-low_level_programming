@@ -9,7 +9,6 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int size = 0;
 	int a;
 	char *dest_new = dest;
 
@@ -17,6 +16,6 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[a] = src[a];
 	}
-	dest[size(src)] = '\0';
+	dest[strlen(src)] = '\0';
 	return (dest_new);
 }
