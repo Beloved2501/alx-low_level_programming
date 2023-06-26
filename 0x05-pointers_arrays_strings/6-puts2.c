@@ -6,7 +6,7 @@
  * @str: pointer variable
  * Return: Return void
  */
-void puts2(char *str);
+void puts2(char *str)
 {
 	int a;
 
