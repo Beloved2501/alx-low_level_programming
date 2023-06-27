@@ -21,12 +21,12 @@ int main(void)
 	{
 		code[a] = rand() % 78;
 		addition += (code[a] + '0');
-		_putchar(code[a] + '0');
+		putchar(code[a] + '0');
 		if ((2772 - addition) - '0' < 78)
 		{
 			b = 2772 - addition - '0';
 			addition += b;
-			_putchar(b + '0');
+			putchar(b + '0');
 			break;
 		}
 	}
