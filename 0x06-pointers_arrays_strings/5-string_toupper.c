@@ -13,7 +13,7 @@ char *string_toupper(char *p)
 	while (p[a] != '\0')
 	{
 		if (p[a] >= 97 && p[a] >= 122)
-			p[a] = p[a] - 32;
+			p[a] = p[a] - ' ';
 		a++;
 	}
 	return (p);
