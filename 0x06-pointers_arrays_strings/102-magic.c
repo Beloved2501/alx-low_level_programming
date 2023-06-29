@@ -1,8 +1,5 @@
 #include <stdio.h>
-/**
- * main - Entry point of all program
- * Return: Always in 0
- */
+/* main - Entry point of all program */
 int main(void)
 {
 	int j;
