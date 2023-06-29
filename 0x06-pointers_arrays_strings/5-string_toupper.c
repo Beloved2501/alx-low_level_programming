@@ -12,7 +12,7 @@ char *string_toupper(char *p)
 	a = 0;
 	while (p[a] != '\0')
 	{
-		if (p[a] > 97 && p[a] > 122)
+		if (p[a] >= 'a' && p[a] >= 'z')
 			p[a] = p[a] - 32;
 		a++;
 	}
