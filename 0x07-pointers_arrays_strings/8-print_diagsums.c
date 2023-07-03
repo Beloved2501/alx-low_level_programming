@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 /**
- * print_diagsum - a function that prints the sum of the diagonal
- * of a square matrix or integers
- * @a: 2d array
+ * print_diagsum - a functions that print the sum of the diagonal
+ * of a square matrix or integer
+ * @a: 2D array
  * @size: size x size of the square matrix
  *
- * Return: void
+ * Return: Return void
  */
 void print_diagsum(int *a, int size)
 {
 	int b;
 	int tl = 0;
 	int tr = 0;
-	int l = size * size;
+	int p = size * size;
 
-	for (b = 0; b < l; b += size + 1)
+	for (b = 0; b < p; b += size + 1)
 	{
 		tl += a[b];
 	}
-	for (b = size - 1; b < l - 1; b += size - 1)
+	for (b = size - 1; b < p - 1; b += size - 1)
 	{
 		tr += a[b];
 	}
