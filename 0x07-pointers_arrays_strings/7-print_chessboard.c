@@ -8,7 +8,8 @@ include "main.h"
  */
 void print_chessboard(char (*a)[8])
 {
-	int b, c;
+	int b = 0;
+	int c = 0;
 
 	for (b = 0; b < 8; b++)
 	{
