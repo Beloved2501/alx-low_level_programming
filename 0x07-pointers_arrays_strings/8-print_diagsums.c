@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * print_diagsum - a functions that print the sum of the diagonal
+ * print_diagsums - a functions that print the sum of the diagonal
  * of a square matrix or integer
  * @a: 2D array
  * @size: size x size of the square matrix
  *
  * Return: Return void
  */
-void print_diagsum(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int b;
 	int tl = 0;
