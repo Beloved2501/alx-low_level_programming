@@ -19,7 +19,7 @@ void print_diagsum(int *a, int size)
 	{
 		t1 += a[b];
 	}
-	for (a = size - 1; a < l - 1; a += size - 1)
+	for (b = size - 1; b < l - 1; b += size - 1)
 	{
 		tr += a[b];
 	}
