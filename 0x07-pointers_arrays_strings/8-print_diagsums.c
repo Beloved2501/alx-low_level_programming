@@ -11,17 +11,17 @@
 void print_diagsum(int *a, int size)
 {
 	int b;
-	int t1 = 0;
+	int tl = 0;
 	int tr = 0;
 	int l = size * size;
 
 	for (b = 0; b < l; b += size + 1)
 	{
-		t1 += a[b];
+		tl += a[b];
 	}
 	for (b = size - 1; b < l - 1; b += size - 1)
 	{
 		tr += a[b];
 	}
-	printf("%d, %d\n", t1, tr);
+	printf("%d, %d\n", tl, tr);
 }
