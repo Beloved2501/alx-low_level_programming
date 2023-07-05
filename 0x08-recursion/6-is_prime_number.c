@@ -6,7 +6,7 @@
  * @j: comparison number
  * Return: 1 if not found sqrroot, else sqrroot
  */
-intsSqtRecursive(int n, int j)
+int sqtRecursive(int n, int j)
 {
 	if (n <= 0)
 		return (-1);
