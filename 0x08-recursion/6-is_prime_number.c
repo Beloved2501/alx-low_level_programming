@@ -2,17 +2,17 @@
 
 /**
  * SqtRecursive - inputs square root recursively
- * @i: given number
+ * @n: given number
  * @j: comparison number
  * Return: 1 if not found sqrroot, else sqrroot
  */
-int sqtRecursive(int i, int j)
+int sqtRecursive(int n, int j)
 {
-	if (i <= 0)
+	if (n <= 0)
 		return (-1);
-	if (i * i == j)
-		return (i);
-	return (sqtRecursive(i - 1, j));
+	if (n * n == j)
+		return (n);
+	return (sqtRecursive(n - 1, j));
 }
 /**
  * _sqrt_recursion - Finds the natural square root of a number
@@ -23,7 +23,7 @@ int _sqrt_recursion(int n)
 {
 	if (n == 1)
 		return (1);
-	return (sqtRecursive(i / 2, n));
+	return (sqtRecursive(n / 2, n));
 }
 /**
  * is_prime_number - confirms if a given number is prime
