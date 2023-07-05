@@ -37,7 +37,7 @@ int is_palindrome(char *s)
 {
 	int size;
 
-	size = _strlen_recursive(s);
+	size = _strlen_recursion(s);
 	if (size == 0 || *s != s[size - 1])
 		return (0);
 	return (is_drome_recursive(s, 0, size - 1));
