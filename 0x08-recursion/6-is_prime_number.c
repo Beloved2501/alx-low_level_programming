@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * SqtRecursive - inputs square root recursively
+ * sqtRecursive - prints square root recursively doing binary search
  * @n: given number
  * @j: comparison number
  * Return: 1 if not found sqrroot, else sqrroot
  */
-int sqtRecursive(int n, int j)
+intsSqtRecursive(int n, int j)
 {
 	if (n <= 0)
 		return (-1);
