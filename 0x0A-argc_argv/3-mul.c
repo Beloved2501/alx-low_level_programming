@@ -4,6 +4,7 @@
  * main - function that multiplies two numbers
  * @argc: argument counts
  * @argv: list of array pointing to the string
+ * @atoi: convert strings to integer
  * Return: Return product or 1
  */
 int main(int argc, char *argv[])
