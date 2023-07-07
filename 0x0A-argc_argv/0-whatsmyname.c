@@ -8,9 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	if (Whatsmyname == argv[0])
-	{
-		printf("%s\n", *argv);
-	}
+	argc = argv;
+	printf("%s\n", *argv);
 	return (0);
 }
