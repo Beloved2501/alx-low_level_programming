@@ -41,18 +41,18 @@ char **strtow(char *str)
 	if (words == 0)
 		return (NULL);
 
-	marble = malloc(sizeof(char *) * (words + 1));
+	marble = (char **) malloc(sizeof(char *) * (words + 1));
 	if (marble == NULL)
 		return (NULL);
 
-	for (m = 0; m < length; m++)
+	for (m = 0; m <= length; m++)
 	{
 		if (str[m] == ' ' || str[m] == '\0')
 		{
 			if (k)
 			{
 				high = m;
-				ptr = malloc(sizeof(char) * (k + 1));
+				ptr = (char *) malloc(sizeof(char) * (k + 1));
 				if (ptr == NULL)
 					return (NULL);
 				while (low < high)
