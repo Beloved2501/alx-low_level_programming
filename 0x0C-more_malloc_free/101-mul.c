@@ -11,6 +11,7 @@
 int is_digit(char *s)
 {
 	int a = 0;
+
 	while (s[a])
 	{
 		if (s[a] < '0' || s[a] > '9')
@@ -27,10 +28,10 @@ int is_digit(char *s)
 int _strlen(char *s)
 {
 	int a = 0;
-	
+
 	while (s[a] != '\0')
 	{
-	a++;
+		a++;
 	}
 	return (a);
 }
@@ -45,7 +46,7 @@ void errors(void)
 /**
  * main - multiplies two positive integers
  * @argc: argument counts
- * argv: array of arguments
+ * @argv: array of arguments
  * Return: Return void
  **/
 int main(int argc, char *argv[])
@@ -72,7 +73,8 @@ int main(int argc, char *argv[])
 		{
 			num2 = str2[length2] - '0';
 			move += product[length1 + length2 + 1] + (num1 * num2);
-			product[length1 + length2 + 1] = move % 10; move /= 10;
+			product[length1 + length2 + 1] = move % 10;
+			move /= 10;
 		}
 		if (move > 0)
 			product[length1 + length2 + 1] += move;
@@ -81,7 +83,7 @@ int main(int argc, char *argv[])
 	{
 		if (product[p])
 			b = 1;
-		if(b)
+		if (b)
 			_putchar(product[p] + '0');
 	}
 	if (!b)
