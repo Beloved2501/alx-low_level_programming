@@ -35,7 +35,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (b < n && s2[b] != '\0')
 	{
 		strconcat[a] = s2[b];
-		a++; b++;
+		a++, b++;
 	}
 	strconcat[a] = '\0';
 	return (strconcat);
