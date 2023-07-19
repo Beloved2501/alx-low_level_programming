@@ -27,8 +27,12 @@ int main(int argc, char *argv[])
 	ptr = (char *)main;
 	for (i = 0; i < numBytes; i++)
 	{
-		printf("%02x", ptr[i]);
+		if (i == numBytes - 1)
+		{
+			printf("%02hhx\n", ptr[i]);
+			break;
+		}
+		printf("%02hhx ", ptr[i]);
 	}
-	printf("\n");
 	return (0);
 }
