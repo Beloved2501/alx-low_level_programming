@@ -2,7 +2,7 @@
 #include <stddef.h>
 
 /**
- * get_op_func - select the correct options to perforn the 
+ * get_op_func - select the correct options to perforn the
  * requested operations.
  * @s: the operator passed as an argument to the program
  * Return: pointer to the corresponding function or
