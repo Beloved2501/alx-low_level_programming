@@ -6,7 +6,7 @@
  * @b: number 2
  * Return: Return sum of a and b
  **/
-int 0p_add(int a, int b)
+int op_add(int a, int b)
 {
 	return (a + b);
 }
