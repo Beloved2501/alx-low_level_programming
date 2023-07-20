@@ -11,8 +11,7 @@ void print_all(const char * const format, ...)
 {
 	va_list args;
 	int j = 0;
-	char *ptr;
-	char *str = "";
+	char *ptr, *str = "";
 
 	va_start(args, format);
 
@@ -41,7 +40,7 @@ void print_all(const char * const format, ...)
 					j++;
 					continue;
 			}
-			str = ",";
+			str = ", ";
 			j++;
 		}
 	}
