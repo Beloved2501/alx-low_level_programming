@@ -14,7 +14,7 @@ int _strlen(const char *s)
 	return (j);
 }
 /**
- * add_node - add new nodes to the list
+ * add_node - add new nodes at the beginning of list
  * @head: current place in the list
  * @str: string to add to the head
  * Return: number of element in list
@@ -37,7 +37,7 @@ list_t *add_node(list_t **head, const char *str)
 	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
 	{
-		free(new_node);
+		free(inside);
 		return (NULL);
 	}
 	new_node->str = inside;
