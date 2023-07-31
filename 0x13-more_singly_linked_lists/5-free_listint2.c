@@ -11,6 +11,9 @@ void free_listint2(listint_t **head)
 	listint_t *curr = *head;
 	listint_t *nxt_node;
 
+	if (head == NULL)
+		return;
+	
 	while (curr != NULL)
 	{
 		nxt_node = curr->next;
