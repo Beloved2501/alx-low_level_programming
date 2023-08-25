@@ -24,7 +24,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	{
 		f = e;
 		if (a >= 0)
-			f += n1[a] - '0';
+			f += n1[a] - '0';i
 		if (b >= 0)
 			f += n2[b] - '0';
 		if (a < 0 && b < 0 && f == 0)
